@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gray-bar {
+  background-color: lightgray;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.blue-square {
+  background-color: lightblue;
+  width: 100px;
+  height: 75%;
+}
+
+.text {
+  padding: 40px;
+}
+
+.bar {
+  height: 20vh;
+}
+
+.blue-bar {
+  background-color: lightblue;
+}
+
+.teal-bar {
+  background-color: teal;
+}
+
+.lime-green-bar {
+  background-color: limegreen;
+}
+
+.yellow-bar {
+  background-color: rgb(236, 236, 82);
+}
