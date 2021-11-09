@@ -1,9 +1,15 @@
-header {
+body {
+  margin: 0;
+  padding: 25px;
+}
+
+.container-one {
+  height: 250px;
   display: flex;
   border: 5px solid black;
   padding: 10px;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 }
 
@@ -20,7 +26,14 @@ header {
   margin: 0 50px;
 }
 
-main {
+.blue-circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+}
+
+.container-two {
   display: flex;
   border: 5px dotted black;
   padding: 50px;
@@ -28,7 +41,14 @@ main {
   box-sizing: border-box;
 }
 
-footer {
+.shadow-rectangle {
+  box-shadow: 10px 10px 5px 0px darkgray;
+  width: 100%;
+  height: 200px;
+  background-color: lightgoldenrodyellow;
+}
+
+.container-three {
   display: flex;
   width: 50%;
   border: 1px solid gray;
@@ -37,4 +57,11 @@ footer {
   box-sizing: border-box;
   margin: 25px auto;
   box-shadow: 3px 3px 5px 0px darkgray;
+}
+
+.hello {
+  text-align: center;
+  color: navy;
+  width: 100%;
+  letter-spacing: 10px;
 }
